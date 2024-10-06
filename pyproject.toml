@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "insect-classification"
+version = "1.0"
+description = "here we are discovering how to use a API with flet in python, usins some programas and algoritms of classificacion about insects"
+authors = ["Esteban Ramos Gomez"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flet = "^0.24.1"
+pillow = "^10.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
